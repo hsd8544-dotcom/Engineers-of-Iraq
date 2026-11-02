@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>الأسئلة الشائعة للمهندسين</title>
+<style>
+  body { font-family: Tahoma, Arial, sans-serif; background:#f3f6fa; margin:0; color:#222; }
+  header { background:#1F4E78; color:#fff; padding:28px 16px; text-align:center; }
+  header h1 { margin:0 0 6px; font-size:26px; }
+  main { max-width:760px; margin:20px auto; padding:0 14px 40px; }
+  #search { width:100%; box-sizing:border-box; padding:14px; font-size:17px;
+            border:2px solid #1F4E78; border-radius:10px; margin-bottom:14px; }
+  .tabs { display:flex; gap:8px; margin-bottom:16px; flex-wrap:wrap; }
+  .tabs button { flex:1; padding:10px; font-size:15px; border:1px solid #1F4E78;
+                 background:#fff; color:#1F4E78; border-radius:8px; cursor:pointer; }
+  .tabs button.active { background:#1F4E78; color:#fff; }
+  details.q { background:#fff; border-radius:10px; margin-bottom:10px;
+              box-shadow:0 1px 3px rgba(0,0,0,.1); }
+  summary { padding:14px 16px; font-weight:bold; cursor:pointer; font-size:17px; }
+  details p { margin:0; padding:0 16px 16px; line-height:1.9; font-size:16px; }
+  #empty { display:none; text-align:center; color:#777; padding:20px; }
+  footer { text-align:center; color:#888; font-size:13px; padding:20px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>الأسئلة الشائعة للمهندسين</h1>
+  <div>أسئلة وأجوبة عن النقابة والمهنة الهندسية</div>
+</header>
+<main>
+  <input id="search" type="search" placeholder="🔍 ابحث عن سؤال...">
+  <div class="tabs">
+    <button class="active" data-f="all">الكل</button>
+    <button data-f="النقابة">النقابة</button>
+    <button data-f="مهنة">عامة</button>
+  </div>
+  <div id="list">
+<details class="q" data-cat="النقابة"><summary>شنو شروط الانتماء لنقابة المهندسين؟</summary><p>عادةً: شهادة هندسية من جامعة معترف بها، هوية الأحوال المدنية، صور شخصية، وتعبئة استمارة الانتماء.<br>(راجع النقابة للقائمة الكاملة المحدثة)</p></details>
+<details class="q" data-cat="النقابة"><summary>شلون أجدد هوية النقابة؟</summary><p>تراجع فرع النقابة بمحافظتك أو البوابة الإلكترونية إن وُجدت، وتسدد الاشتراك السنوي.<br>(المبلغ والموعد: [اكتبها من النقابة])</p></details>
+<details class="q" data-cat="النقابة"><summary>شنو فايدة الانتماء للنقابة؟</summary><p>تمارس المهنة بشكل رسمي، تصدّق الوثائق الهندسية، وتستفيد من الصندوق التقاعدي والخدمات التي تقدمها النقابة.</p></details>
+<details class="q" data-cat="النقابة"><summary>شلون أصدّق مخططات أو وثائق هندسية؟</summary><p>تقدمها للفرع المختص مع الهوية السارية.<br>(الوثائق والرسوم المطلوبة: [اكتبها من النقابة])</p></details>
+<details class="q" data-cat="النقابة"><summary>شلون أتواصل مع النقابة؟</summary><p>عبر الموقع الرسمي ieu-iq.org أو فرع محافظتك. المقر الرئيسي بالمنصور، بغداد.<br>(رقم الفرع: [اكتبه])</p></details>
+<details class="q" data-cat="النقابة"><summary>شنو أسوي إذا ضاعت هوية النقابة؟</summary><p>تراجع فرع النقابة وتقدم طلب بدل فاقد مع هوية الأحوال المدنية.<br>(الرسوم والوثائق: [اكتبها من النقابة])</p></details>
+<details class="q" data-cat="النقابة"><summary>شلون أنقل انتمائي لفرع محافظة ثانية؟</summary><p>تقدم طلب نقل من فرعك الحالي للفرع الجديد، وتنتظر الموافقة.<br>(الإجراءات التفصيلية: [اكتبها من النقابة])</p></details>
+<details class="q" data-cat="النقابة"><summary>شنو الصندوق التقاعدي للمهندسين؟</summary><p>صندوق تدعمه النقابة يمنح المنتمين راتباً تقاعدياً بشروط محددة.<br>(الشروط والمبالغ: [اكتبها من النقابة])</p></details>
+<details class="q" data-cat="النقابة"><summary>أقدر أمارس المهنة بدون انتماء للنقابة؟</summary><p>ممارسة المهنة الهندسية رسمياً ترتبط عادةً بالانتماء للنقابة. تأكد من الشروط الحالية من النقابة.</p></details>
+<details class="q" data-cat="مهنة"><summary>شنو الفرق بين المهندس المقيم والمصمم؟</summary><p>المقيم يشرف على التنفيذ بالموقع ويراقب الجودة، والمصمم يعدّ المخططات والحسابات الإنشائية أو الفنية.</p></details>
+<details class="q" data-cat="مهنة"><summary>شلون أبدأ حياتي المهنية كمهندس جديد؟</summary><p>ابدأ بتدريب أو شركة صغيرة لاكتساب الخبرة الميدانية، انتمِ للنقابة، وطوّر مهاراتك ببرامج مثل AutoCAD.</p></details>
+<details class="q" data-cat="مهنة"><summary>شنو الشهادات المهنية المفيدة للمهندس؟</summary><p>PMP لإدارة المشاريع، وPE للترخيص المهني بحسب التخصص، وشهادات متخصصة حسب مجالك (مثل السلامة المهنية أو الجودة).</p></details>
+<details class="q" data-cat="مهنة"><summary>شلون أطوّر نفسي كمهندس متمرس؟</summary><p>الدورات المتخصصة، المؤتمرات، تعلم أدوات حديثة مثل BIM، وتولي مسؤوليات إدارية تدريجياً.</p></details>
+<details class="q" data-cat="مهنة"><summary>شنو أهم برامج المهندسين؟</summary><p>AutoCAD، Revit، SAP2000، ETABS، MS Project، وبرامج المحاكاة حسب التخصص (مدني، كهرباء، ميكانيك).</p></details>
+<details class="q" data-cat="مهنة"><summary>شنو الـ BIM؟</summary><p>BIM هو نمذجة معلومات البناء: نموذج ثلاثي الأبعاد للمشروع يحتوي معلومات عن المواد والتكلفة والجدول الزمني، ويقلل أخطاء التصميم والتنفيذ.</p></details>
+<details class="q" data-cat="مهنة"><summary>شلون أكتب سيرة ذاتية قوية للمهندس؟</summary><p>اجعلها صفحة أو صفحتين: الخلاصة المهنية، المشاريع المنفذة بأرقام (مساحة، كلفة، دورك)، البرامج التي تتقنها، الشهادات والدورات. تجنب الحشو.</p></details>
+<details class="q" data-cat="مهنة"><summary>شلون أتجهز لمقابلة عمل هندسية؟</summary><p>راجع أساسيات تخصصك، جهز أمثلة من مشاريعك، اطلع على نشاط الشركة، وتدرب على شرح قراراتك الفنية بوضوح.</p></details>
+<details class="q" data-cat="مهنة"><summary>كيف أحسب أجري كمهندس مستقل؟</summary><p>احسب ساعات العمل الفعلية، وأضف التكاليف (برامج، تنقل، تأمين)، وراجع أسعار السوق لمشاريع مماثلة، ثم ضع هامش ربح معقول.</p></details>
+<details class="q" data-cat="مهنة"><summary>شنو أهم قواعد السلامة المهنية بالموقع؟</summary><p>ارتداء معدات الوقاية (خوذة، حذاء، قفازات)، تقييم المخاطر قبل البدء، تنظيم الموقع، وتدريب العمال على إجراءات الطوارئ.</p></details>
+<details class="q" data-cat="مهنة"><summary>شنو الفرق بين المهندس والفني؟</summary><p>المهندس يصمم ويحلل ويتخذ القرارات الفنية بخلفية أكاديمية، والفني ينفذ ويصون المعدات بتدريب عملي.</p></details>
+<details class="q" data-cat="مهنة"><summary>شلون أقرأ المخططات الهندسية؟</summary><p>ابدأ بمفتاح الرموز وجدول بيانات اللوحة، ثم المقياس، وبعدها المساقط والمقاطع والتفاصيل.</p></details>
+<details class="q" data-cat="مهنة"><summary>شنو أهمية جدول الكميات BOQ؟</summary><p>قائمة ببنود العمل وكمياتها وأسعارها، تُستخدم للتسعير ومتابعة التكلفة وإعداد المستخلصات.</p></details>
+<details class="q" data-cat="مهنة"><summary>شنو الفرق بين الكود والمواصفة؟</summary><p>الكود يحدد الحد الأدنى من المتطلبات والسلامة، والمواصفة تفصّل المواد وطريقة التنفيذ لمشروع معين.</p></details>
+<details class="q" data-cat="مهنة"><summary>شلون أتعامل مع تأخير المشروع؟</summary><p>حدد سبب التأخير، حدّث الجدول الزمني، تواصل مع الأطراف، وركّز على الأعمال الحرجة أو أعد توزيع الموارد.</p></details>
+<details class="q" data-cat="مهنة"><summary>شنو الـ Critical Path؟</summary><p>أطول سلسلة أنشطة مترابطة تحدد أقصر مدة للمشروع، وأي تأخير فيها يؤخر المشروع كله.</p></details>
+<details class="q" data-cat="مهنة"><summary>أي لغة برمجة أتعلم كمهندس؟</summary><p>Python للتحليل والأتمتة، وMATLAB للحسابات الهندسية. ابدأ بمشكلة حقيقية من مجالك.</p></details>
+<details class="q" data-cat="مهنة"><summary>شنو الفرق بين الاستشاري والمقاول؟</summary><p>الاستشاري يصمم ويشرف ويمثل المالك فنياً، والمقاول ينفذ الأعمال حسب العقد.</p></details>
+<details class="q" data-cat="مهنة"><summary>شلون أوازن بين الشغل والحياة؟</summary><p>حدد ساعات عمل واضحة، رتب أولوياتك، لا تقبل مهام فوق طاقتك، وخذ إجازاتك.</p></details>
+<details class="q" data-cat="مهنة"><summary>شلون أبني علاقات مهنية؟</summary><p>احضر المؤتمرات والدورات، فعّل حسابك على LinkedIn، تواصل مع الزملاء، وشارك خبراتك.</p></details>
+<details class="q" data-cat="مهنة"><summary>شلون أكتب تقرير فني واضح؟</summary><p>ابدأ بملخص، ثم الهدف والمنهجية، النتائج بجداول ورسوم، والتوصيات. تجنب الإطالة.</p></details>
+  </div>
+  <div id="empty">ما لگينا سؤال مطابق، جرّب كلمة ثانية.</div>
+</main>
+<footer>الأجوبة للإرشاد العام، ويُرجى مراجعة نقابة المهندسين للتفاصيل الرسمية.</footer>
+<script>
+  const search = document.getElementById('search');
+  const qs = [...document.querySelectorAll('details.q')];
+  const btns = [...document.querySelectorAll('.tabs button')];
+  let filter = 'all';
+  function norm(s) {
+    return s.replace(/[أإآ]/g,'ا').replace(/ة/g,'ه').replace(/ى/g,'ي').toLowerCase();
+  }
+  function apply() {
+    const t = norm(search.value.trim());
+    let shown = 0;
+    qs.forEach(q => {
+      const okCat = filter === 'all' || q.dataset.cat === filter;
+      const okText = !t || norm(q.textContent).includes(t);
+      q.style.display = (okCat && okText) ? '' : 'none';
+      if (okCat && okText) shown++;
+    });
+    document.getElementById('empty').style.display = shown ? 'none' : 'block';
+  }
+  search.addEventListener('input', apply);
+  btns.forEach(b => b.addEventListener('click', () => {
+    btns.forEach(x => x.classList.remove('active'));
+    b.classList.add('active');
+    filter = b.dataset.f;
+    apply();
+  }));
+</script>
+</body>
+</html>
